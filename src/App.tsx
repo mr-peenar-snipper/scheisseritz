@@ -1,5 +1,4 @@
-import { useState, useEffect } from "react";
-import { Box, Typography, Container } from "@mui/material";
+import { Box } from "@mui/material";
 
 import Navbar from "./components/navbar";
 import Hero from "./sections/Hero";
