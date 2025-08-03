@@ -11,6 +11,7 @@ import audio7 from "../assets/audio/audio7.mp3";
 import audio8 from "../assets/audio/audio8.mp3";
 import audio9 from "../assets/audio/audio9.mp3";
 import audio10 from "../assets/audio/audio10.mp3";
+import mapSvg from "../assets/map.svg";
 
 
 import AudioPlayer from "react-h5-audio-player";
@@ -66,7 +67,7 @@ export default function Guides() {
                 Hörbeiträge
             </Typography>
             <ReactSVG
-                src="/src/assets/map.svg"
+                src={mapSvg}
                 beforeInjection={(svg: SVGSVGElement) => {
                     svg.setAttribute("style", "width: 100%; height: auto;");
                 }}
